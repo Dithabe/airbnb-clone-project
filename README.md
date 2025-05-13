@@ -34,9 +34,19 @@
 
 <h2>Database Design</h2>
 <ul>
-  <li>Users: </li>
-  <li>Properties:</li>
-  <li>Bookings:</li>
-  <li>Reviews:</li>
-  <li>Payments:</li>
+  <li>Users: GET /users/, POST /users/, POST /users/ -  A user can have multiple properties</li>
+  <li>Properties: GET /properties/, POST /properties/, PUT /properties/{property_id}/ - Each property can be booked mutliple times(rooms)</li>
+  <li>Bookings: GET /bookings/, POST /bookings/, GET /bookings/{booking_id}/ - Each booking is associated with one property</li>
+  <li>Reviews: GET /reviews/, POST /reviews/, GET /reviews/{review_id}/ - Each review is attached to one property and a user can review multiple properties</li>
+  <li>Payments: POST /payments/ - Each booking is associated to a payment.</li>
+</ul>
+
+<h2>Feature breakdown</h2>
+<ul>
+  <li>User Management - is a secure system that handles user registration, authentication, and profile management. The feature enables the user to customize their profile and communication preferences for the system.</li>
+  <li>Property Management - this portion of the feature encorporates the property listing creation, any updates, and retrieval of information. This determines whether a property is available or booked out for a specific range of days</li>
+  <li>Booking System - this handles the booking mechanism for users to reserve properties and manage booking systems. The user can select a date range and properties for that range and area will be visibile to them.</li>
+  <li>Payment processing - this refers to the integrated payment gateway system that handles and record payment details. This also includes the conclusion of the bookings as well as the confirmation message.</li>
+  <li>Review System - allows users to leave reviews and ratings for properties they have engaged with. This also helps in giving property owners feedback on what is working well on their properties and what isn't.</li>
+  <li>Data Optimization - ensure efficien data retrieval and storage through database optimizations. This is crucial for audit and legislative purposes so that the system is readily compliant with all laws.</li>
 </ul>
