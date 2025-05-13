@@ -41,7 +41,7 @@
   <li>Payments: POST /payments/ - Each booking is associated to a payment.</li>
 </ul>
 
-<h2>Feature breakdown</h2>
+<h2>Feature Breakdown</h2>
 <ul>
   <li>User Management - is a secure system that handles user registration, authentication, and profile management. The feature enables the user to customize their profile and communication preferences for the system.</li>
   <li>Property Management - this portion of the feature encorporates the property listing creation, any updates, and retrieval of information. This determines whether a property is available or booked out for a specific range of days</li>
