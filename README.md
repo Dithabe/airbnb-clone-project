@@ -50,3 +50,19 @@
   <li>Review System - allows users to leave reviews and ratings for properties they have engaged with. This also helps in giving property owners feedback on what is working well on their properties and what isn't.</li>
   <li>Data Optimization - ensure efficien data retrieval and storage through database optimizations. This is crucial for audit and legislative purposes so that the system is readily compliant with all laws.</li>
 </ul>
+
+<h2>API Security</h2>
+<p>API security focuses on securing access to Application Programming Interfaces (APIs) through authentication, authorization, and rate limiting.</p>
+<ul>
+  <li>Authentication - It verifies the identity of an API client to ensure it's a legitimate user or application thus preventing unautherized access and protects sensitive data.</li>
+  <li>Authorization - determines which resources a user or application is permitted to access after they have been authenticated. Ensures users only have access to the resources they need, preventing unauthorized data access.</li>
+  <li>Rate limiting - controls the frequency of API requests to prevent abuse and denial of service attacks. Ensures the API remains responsive and available to legitimate users.</li>
+</ul>
+
+<h2>CI/CD Pipeline</h2>
+<p>A CI/CD pipeline is an automated workflow that streamlines the process of building, testing, and deploying software, enabling developers to deliver new code changes more frequently and reliably. Automated processes enable quicker release cycles, leading to faster time-to-market. It also reduces manual effort as tasks are streamlined, allowing developers to focus on more strategic work.</p>
+<p>Tools and Technologies:</p>
+<ul>
+  <li>CI/CD platforms: Jenkins, GitLab CI, CircleCI, GitHub Actions, AWS CodePipeline.</li>
+  <li>Containerization: Docker and Kubernetes are commonly used to package and deploy applications in a consistent and portable manner.</li>
+</ul>
